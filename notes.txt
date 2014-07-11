@@ -1,0 +1,16 @@
+API - Application Programming Interface
+
+-A good API is open, structured data
+  Comes with good documentation that tells you what you can do with the API and how to do it
+
+REQUEST:
+HTTP request to API
+-There are 2 main parts when accessing an API/making a request: the base url and the endpoint:
+  base url is the api to interact with            (http://api.github.com)
+  endpoint is what you want to get back from it   (/users/hillrw3)
+
+RESPONSE:
+Comes in as a string of either XML or JSON
+We can use Ruby to parse this string into a hash or array of hashes to turn it into usable data
+
+-FARADAY gem

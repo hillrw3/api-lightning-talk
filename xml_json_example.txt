@@ -1,0 +1,17 @@
+XML:
+
+<pet>
+  <name>Jeffrey</name>
+  <species>Giraffe</species>
+</pet>
+
+
+
+JSON:
+
+{
+  "pets": {
+    "name": "Jeffrey",
+    "species": "Giraffe"
+  }
+}
